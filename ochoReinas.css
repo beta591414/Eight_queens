@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+td.cell {
+	width: 50px;
+	height: 50px;
+}
+
+td.black-back {
+	background-color: #eacd76;
+}
+
+.pink-back {
+	background-color: pink !important; 
+}
+
+.selected {
+	background-color: green !important;
+}
+
+.messages {
+	text-align: center
+}

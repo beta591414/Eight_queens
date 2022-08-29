@@ -1,0 +1,71 @@
+﻿    
+table{width:55%; background-color:#eacd76; margin:auto;}   
+tr, td{border:3px #899c56 solid;}
+ol{margin:auto; width:640px;}            
+span{border:2px solid black; cursor:pointer;} 
+#div2{width:80%; 
+        margin:auto;
+        align-items: center;
+        display: flex;
+        text-align: center;
+}
+.k{background-color:#899c56;}
+.w{background-color:#fff143;}
+.header{
+        width: 100%;
+        background-color:#21307F;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 48px;
+}
+.zju_header{
+        width:100%;
+        
+}
+.counter{width:70%;
+        display: inline-block;
+        margin-top:50px;
+
+}
+.header_font{
+        color:#fff;
+        border:none;
+        font-size: 4.5vw;
+        text-align: center;
+        vertical-align:middle;
+        width:69%;
+        /* width:666px; */
+}
+.article{
+        text-align: center;
+        margin-top:20px;
+        margin-bottom:20px;
+}
+.art_text{
+        border:none;
+        color:black;
+        font-size:30px;
+        text-align: center;
+        display: inline-block;
+
+}
+
+.restart{
+        border-color: #93B2D6;
+        border-radius:5px;
+        color:black;
+        font-size:2vw;
+        margin:none;
+        margin-right: 16px;
+}
+.restarts{
+        border-color: #93B2D6;
+        border-radius:5px;
+        color:black;
+        font-size:2vw;
+        float:right;
+        margin-left: auto;
+        margin-right:none;
+}
+
+    

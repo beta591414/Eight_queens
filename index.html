@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />  
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Eightqueens : ">
+    <meta name="apple-mobile-web-app-capable" content="yes" />    
+    <meta name="format-detection" content="telephone=no" />  
+
+    <title>Eightqueens</title>
+
+    <link href="stylesheets/eightQueens.css" rel="stylesheet" />  
+    <script src="javascripts/jquery-1.12.2.js"></script>
+    <script src="javascripts/main.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#tables').css('height',$('#tables').css('width'));
+    })
+    $(document).ready(function(){
+      $('#pic').css('height',$('#text').css('height'));
+  })
+    </script>
+    
+
+  </head>
+
+  <body>
+    <div class = "header">
+      <div class="zju_header">
+        <img src = "zju.png" style="width: 30%; display: inline-block;margin-right: 25px;vertical-align:middle">
+        <span class = "header_font">人工智能与大数据综合实践</span>
+      </div>
+    </div>
+    <div class = "article">
+      <span class="art_text">八皇后问题小游戏</span>
+    </div>
+
+    <div>
+        <table id="tables">
+            <tbody></tbody>            
+        </table>
+    </div>
+    <br>
+    <div id="div2">
+        <img src="retest.png" id="pic" style="display:inline-block">
+        <span class="restart" id="text" >重新开始</span> 
+        <span class="restarts">游戏规则:将皇后放到棋盘上，使得彼此之间无法相互攻击</span>      
+    </div>
+    <div class="counter">
+      <span style="color: #000;font-size: 1vw;; border:none; margin-left:10px;margin-bottom:2px">小组成员：王福博，祁实</span>
+      </div>
+
+  </body>
+</html>
